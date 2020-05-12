@@ -9,6 +9,11 @@ import javax.persistence.Table;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
+/**
+ * @author BoZhang
+ * E-mail:dlzbo@cn.ibm.com
+ * @version date：May 12, 2020 7:52:59 PM
+*/
 @Entity
 @Table(name = "stockprice")
 public class StockPriceEntity extends AuditEntity {

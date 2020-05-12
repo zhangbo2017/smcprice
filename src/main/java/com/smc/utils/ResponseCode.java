@@ -1,10 +1,11 @@
 package com.smc.utils;
 
+
 /**
- * @version 1.0
- * @Author Liker
- * @description 自定义响应码
- */
+ * @author BoZhang
+ * E-mail:dlzbo@cn.ibm.com
+ * @version date：May 12, 2020 7:54:07 PM
+*/
 public class ResponseCode {
 
 	protected ResponseCode() {

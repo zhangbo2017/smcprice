@@ -6,6 +6,11 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 
+/**
+ * @author BoZhang
+ * E-mail:dlzbo@cn.ibm.com
+ * @version date：May 12, 2020 7:53:21 PM
+*/
 public interface StockPriceRepository extends JpaRepository<StockPriceEntity, Long> {
     List<StockPriceEntity> findByCompanyCodeAndDateTimeBetween(String code, LocalDateTime start, LocalDateTime end);
 

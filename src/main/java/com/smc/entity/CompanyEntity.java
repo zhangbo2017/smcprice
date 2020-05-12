@@ -8,6 +8,11 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import java.math.BigDecimal;
 
+/**
+ * @author BoZhang
+ * E-mail:dlzbo@cn.ibm.com
+ * @version date：May 12, 2020 7:52:42 PM
+*/
 @Entity
 @Table(name = "company")
 public class CompanyEntity extends AuditEntity {

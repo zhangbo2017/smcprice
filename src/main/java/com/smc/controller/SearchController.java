@@ -23,6 +23,11 @@ import java.util.stream.Collectors;
 
 import static java.math.BigDecimal.ROUND_HALF_DOWN;
 
+/**
+ * @author BoZhang
+ * E-mail:dlzbo@cn.ibm.com
+ * @version date：May 12, 2020 7:52:28 PM
+*/
 @CrossOrigin
 @RestController
 @RequestMapping("/search")

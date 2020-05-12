@@ -7,6 +7,11 @@ import org.springframework.data.jpa.repository.Query;
 import java.util.List;
 
 
+/**
+ * @author BoZhang
+ * E-mail:dlzbo@cn.ibm.com
+ * @version date：May 12, 2020 7:53:06 PM
+*/
 public interface CompanyRepository extends JpaRepository<CompanyEntity, Integer> {
 
 	@Query(name = "getCompanyNameByCode", nativeQuery = true,

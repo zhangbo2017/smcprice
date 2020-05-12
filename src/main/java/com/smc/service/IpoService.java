@@ -13,6 +13,11 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
 
+/**
+ * @author BoZhang
+ * E-mail:dlzbo@cn.ibm.com
+ * @version date：May 12, 2020 7:53:47 PM
+*/
 @Service
 public class IpoService {
 

@@ -5,6 +5,11 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 
+/**
+ * @author BoZhang
+ * E-mail:dlzbo@cn.ibm.com
+ * @version date：May 12, 2020 7:53:12 PM
+*/
 public interface ExchangeRepository extends JpaRepository<StockExchangeEntity, Integer> {
 
 	@Query(name = "findByExchange", nativeQuery = true,

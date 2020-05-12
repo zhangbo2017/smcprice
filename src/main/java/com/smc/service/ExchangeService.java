@@ -11,12 +11,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * @ClassName ExchangeService
- * @Description TODO
- * @Author Liker
- * @Date 12/4/2019 15:40 AM
- * @Version 1.0
- **/
+ * @author BoZhang
+ * E-mail:dlzbo@cn.ibm.com
+ * @version date：May 12, 2020 7:53:39 PM
+*/
 @Service
 public class ExchangeService {
 

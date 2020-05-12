@@ -8,6 +8,11 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
+/**
+ * @author BoZhang
+ * E-mail:dlzbo@cn.ibm.com
+ * @version date：May 12, 2020 7:52:34 PM
+*/
 public class SectorDTO implements Serializable {
     private static final long serialVersionUID = 3561409234966077219L;
     private BigDecimal value;
