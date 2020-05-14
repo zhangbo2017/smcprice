@@ -23,14 +23,7 @@ public class ExchangeService {
 	@Autowired
 	private ExchangeRepository exchangeRepository;
 
-	/**
-	 * Description: query all exchange.
-	 *
-	 * @param:
-	 * @return: com.smc.utils.CommonResult
-	 * @auther: Liker
-	 * @date: 2019/12/04 10:39
-	 */
+
 	// public CommonResult findAll() {
 	// 	try {
 	// 		List<StockExchangeEntity> exchange = exchangeRepository.findAll();
@@ -41,14 +34,7 @@ public class ExchangeService {
 	// 	}
 	// }
 
-	/**
-	 * Description: query exchange by exchangename.
-	 *
-	 * @param:
-	 * @return: com.smc.utils.CommonResult
-	 * @auther: Liker
-	 * @date: 2019/12/04 10:39
-	 */
+
 	public CommonResult findByExchange(String exchange) {
 		try {
 			StockExchangeEntity stockExchange = exchangeRepository.findByExchange(exchange);
@@ -60,14 +46,6 @@ public class ExchangeService {
 	}
 
 
-	/**
-	 * Description: query exchange by exchangeid.
-	 *
-	 * @param:
-	 * @return: com.smc.utils.CommonResult
-	 * @auther: Liker
-	 * @date: 2019/12/04 10:39
-	 */
 	public CommonResult findById(int id) {
 		try {
 			StockExchangeEntity stockExchange = exchangeRepository.findById(id).get();
